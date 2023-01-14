@@ -1,4 +1,5 @@
 /**
+ * 
  * Copyright 2022 Google Inc. All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -39,7 +40,7 @@ initializeApp();
  * generate a thumbnail automatically using ImageMagick.
  */
 // [START v2storageGenerateThumbnailTrigger]
-exports.generateThumbnail = onObjectFinalized({cpu: 2}, async (event) => {
+exports.generatethumbnailv2 = onObjectFinalized({cpu: 2}, async (event) => {
 // [END v2storageGenerateThumbnailTrigger]
 
   // [START v2storageEventAttributes]
